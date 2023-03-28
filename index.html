@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lng="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="voir.html">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+crossorigin=""/>
+<title>Resto</title>
+</head>
+
+
+
+
+
+
+<body>
+<header>
+    <a href="#" class="logo"><span>H</span>appy<span>F</span>ood</a>
+    <div class="menutoggle" onclick="toggleMenu();">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    <ul class="navbar">
+    <li><a href="#banniere" onclick="toggleMenu();">Accueil</a></li>
+    <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+    <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+    <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+    <li><a href="#temoignage" onclick="toggleMenu();">Temoignage</a></li>
+   
+    <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+    
+    <a href="./reservation/index.html" class="btn-reserve" onclick="toggleMenu();">Reservation</a>
+    </ul>
+    </div>
+
+</header>
+<section class="banniere" id="banniere">
+    <div class="contenu">
+        <h2>Que Des Plats Délicieux</h2>
+        <p>Ici vous trouvez votre plat préféré et tous les plat les plus délicieux </p>
+        <a href="voir.html" class="btn1">Notre Menu</a>
+        <a href="./reservation/index.html" class="btn2">Reservation</a>
+    </div>
+</section>
+<section class="apropos" id="apropos">
+    <div class="row">
+    <div class="col50">
+<h2 class="titre-texte"> A propos de Nous </h2>
+<p>Notre site facilite votre choix au niveau des plats, nous vous présentons des meilleurs plats qui sont très délicieux et de très bonne qualité.</p>
+    </div>
+    <div class="col50">
+    <div class="img">
+        <img src="./images/clark-douglas-17ZU9BPy_Q4-unsplash.jpg" alt="image">
+    </div>
+    </div>
+    </div>
+</section>
+<section class="menu" id="menu">
+<div class="titre">
+    <h2 class="titre-texte"><span>M</span>enu</h2>
+    <p>Notre meilleurs plats pour vous.</p>
+</div>
+<div class="contenu">
+    <div class="box">
+ <div class="imbox">
+ <img src="./images/photo-1551248429-40975aa4de74.jpeg" alt=""> 
+ </div>
+ <div class="text">
+   <h3>Special Salade</h3>
+ </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                    <img src="./images/photo-1579871494447-9811cf80d66c.jpeg" alt=""> 
+                    </div>
+                    <div class="text">
+                      <h3>Special Sushi</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                    <img src="./images/photo-1612240498936-65f5101365d2.jpeg" alt=""> 
+                    </div>
+                    <div class="text">
+                      <h3>Délicieux Donuts</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                    <img src="./images/photo-1563805042-7684c019e1cb.jpeg" alt=""> 
+                    </div>
+                    <div class="text">
+                      <h3>Cheesecake</h3>
+                      </div>
+                    </div>
+                    <div class="box">
+                        <div class="imbox">
+                        <img src="./images/photo-1565299624946-b28f40a0ae38.jpeg" alt=""> 
+                        </div>
+                        <div class="text">
+                          <h3>Pizza Fromage</h3>
+                          </div>
+                        </div>
+                       <div class="box">
+                     <div class="imbox">
+                     <img src="./images/photo-1586816001966-79b736744398.jpeg" alt=""> 
+                     </div>
+                     <div class="text">
+                  <h3>Humberger Trés Délicieux</h3>
+                  </div>
+                            
+                            </div>
+                            <div class="box">
+                                <div class="imbox">
+                                <img src="./images/photo-1473093295043-cdd812d0e601.jpeg" alt=""> 
+                                </div>
+                                <div class="text">
+                                  <h3>Pasta</h3>
+                                  </div>
+                                
+                                </div>
+                                <div class="box">
+                                    <div class="imbox">
+                                    <img src="./images/photo-1529042410759-befb1204b468.jpeg" alt=""> 
+                                    </div>
+                                    <div class="text">
+                                      <h3>Viande Grillée</h3>
+                                      </div>
+                                    
+                                      </div>
+                </div>
+            </div>
+        <div class="titre">
+     <a href="voir.html" class="btn1">Voir Plus</a>
+     </div>
+     
+        </section>
+        <section class="expert" id="expert">
+<div class="text">
+    <h2 class="titre-texte">Nos <span>E</span>xperts</h2>
+    <p>Nous présentons ici  notre chefs qui sont le plus experts. </p>
+</div>
+<div class="contenu">
+    <div class="box">
+        <div class="imbox">
+        <img src="https://thumbs.dreamstime.com/b/chef-ladle-mature-professional-man-isolated-over-white-background-35579888.jpg" alt=""> 
+        </div>
+        <div class="text">
+          <h3>Le Grand Chef Cuisine</h3>
+        </div>
+  </div>
+
+        <div class="box">
+            <div class="imbox">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CWCHDql1Sf1yOGBL77_3tGKOXJCIFurBqJ1O-UZA6CyfvB-zhEc--cF3Ujt3pHVlkaw&usqp=CAU" alt=""> 
+            </div>
+            <div class="text">
+              <h3>le chef Mohamed</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+            <img src="https://image.shutterstock.com/mosaic_250/191671754/1680271543/stock-photo-portrait-of-female-chef-on-white-background-1680271543.jpg" alt=""> 
+            </div>
+            <div class="text">
+              <h3>chef cuisine sucre</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+            <img src="https://thumbs.dreamstime.com/b/chef-woman-isolated-over-white-background-35580644.jpg" alt=""> 
+            </div>
+            <div class="text">
+              <h3>chef maye</h3>
+            </div>
+</div>
+</div>
+</section>
+
+<section class="temoignage" id="temoignage">
+<div class="titre blanc">
+    <h2 class="titre-texte">Avis de votre <span>C</span>lients</h2>
+</div>
+<div class="contenu">
+<div class="box">
+    <div class="imbox">
+    <img src="https://us.123rf.com/450wm/vadymvdrobot/vadymvdrobot2003/vadymvdrobot200300051/142744663-.jpg?ver=6" alt=""> 
+    </div>
+    <div class="text">
+        <p>Nous avons pris la tourte en plat unique c'est que du bonheur (frais, fin, généreux, avec une très belle présentation, vraiment en dehors des sentiers battus) même le café est présenté de façon originale!.</p>
+    </div>
+    </div>
+    <div class="box">
+        <div class="imbox">
+        <img src="https://us.123rf.com/450wm/stockbroker/stockbroker1702/stockbroker170201631/71273314-outdoor-head-and-shoulders-portrait-of-smiling-mature-man.jpg?ver=6" alt=""> 
+        </div>
+        <div class="text">
+            <p>Ce fut un vrai moment de plaisir tant pour le cadre, l'accueil, la courtoisie du personnel que pour nos papilles. On s'est régalés, les plats sont beaux et savoureux. Même pour les enfants, ce fut un super moment ! Merci.</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imbox">
+        <img src="https://www.international.gc.ca/world-monde/assets/images/issues_development-enjeux_developpement/gender_equality-egalite_des_genres/jacqueline_oneill.jpg" alt=""> 
+        </div>
+        <div class="text">
+    <p> Le chef sait surprendre en mariant les herbes et les légumes oubliés. Assiette divine. Plus réservée sur les desserts, là encore assiettes généreuses et originales.</p>
+        </div>
+    </div>
+</div>
+<div class="avis">
+    <p>Merci, de Saisir ici votre avis :</p>
+    <textarea placeholder="message"></textarea>
+    <div class="button">
+    <input type="submit" value="Saisir">
+</div>
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <div class="titre noir">
+        <h2 class="titre-text"><span>C</span>ontact</h2>
+        <p> Si vous avez   des problème ou besoin d'aide n'hésitez pas de nous contact ici  </p>
+    </div>
+    <form action="/ma-page-de-traitement" method="post">
+    <div class="contactform">
+        <h3>Envoyer un message</h3>
+        <div class="inputboite">
+           
+            <input type="text" placeholder="Nom">
+        </div>
+        <div class="inputboite">
+   
+            <input type="text" placeholder="email">
+      </div>
+      <div class="inputboite">
+       
+      <textarea placeholder="message"></textarea>
+      </div>
+      <div  class="inputboite">
+    <button type="submit" value="Envoyer">Envoyer</button>
+      </div>
+    </div>
+</form>
+</section>
+<div class="final">
+    <p>© 2021 HappyFood. Tous les droits sont réservés</p>  
+     <div class="icons">
+    <i class='bx bxl-facebook-circle'></i>
+    <i class='bx bxl-instagram' ></i>
+    <i class='bx bxl-youtube' ></i>
+    </div>
+</div>
+<script type="text/javascript">
+    
+window.addEventListener('scroll', function(){
+   const header = document.querySelector('header');
+    header.classList.toggle("sticky", window.scrollY > 0 );
+});
+function toggleMenu(){
+    const toggleMenu  = document.querySelector('.menutoggle');
+   const navbar = document.querySelector('navbar');
+    navbar.classList.toggle('active');
+    toggleMenu .classList.toggle('active');
+  
+}
+var map = L.map('map').setView([51.505, -0.09], 13);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+  </script>
+   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+   integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+   crossorigin=""></script>
+    </body>
+</html>

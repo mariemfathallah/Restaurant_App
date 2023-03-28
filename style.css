@@ -1,0 +1,718 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+  
+}
+.logo{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+    margin-top: -10px;
+}
+.logo span{
+    color: #fb911f;
+
+}
+
+.navbar{
+    display: flex;
+    position: relative; 
+   
+}
+.navbar li {
+    list-style: none;
+    
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.btn-reserve{
+    padding:10px 20px;
+    background-color: #fb911f;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+.btn-reserve:hover{
+    background: #d87710;
+
+    transition: ease-out;
+}
+header .navbar li a:hover{
+    color: #fb911f;
+    border-bottom: 2px solid #fb911f;
+}
+.banniere{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url('https://media.istockphoto.com/id/1160577908/photo/two-meat-plate-with-salad-leaves-and-summer-salad-in-waiters-hand.jpg?s=612x612&w=0&k=20&c=oEkvTjNVSBSwXiFoQnEPh1yGIKFwGws-TeJbRN82Ag4=');
+    background-size: cover;
+}
+.banniere .contenu{
+    max-width: 70%;
+    text-align: center;
+}
+.banniere .contenu h2{
+    color: #fff;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.contenu p:nth-child(2) {
+    color: #fff;
+    font-size: 1.2rem;
+}
+.btn1{
+font-size: 1em;
+color: #fff; 
+background: #fb911f;
+padding: 10px 20px;
+display: inline-block;
+margin-top: 20px;
+text-transform: uppercase;
+text-decoration: none;
+letter-spacing: 2px;
+transition: 0.5s;
+margin-left: 10px;
+}
+.btn2{
+    font-size: 1em;
+    color: #fff; 
+    background: #2a4963;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+    }
+    .btn1:hover{
+        letter-spacing: 4px;
+    }
+    section{
+        padding: 100px;
+
+    }
+    .row{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .row .col50{
+        position: relative;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      font-style: italic;
+      margin: auto;
+     
+     
+}
+    
+    .row .col50 h2{
+        margin-bottom: 20px;
+
+    }
+    .titre-texte{
+        color:black;
+        font-size: 2em;
+    
+        text-transform: capitalize;
+    }
+    .titre-texte span{
+        color: #fb911f;
+        font-size: 1.5em;
+        font-weight: 700px;
+    }
+    .row .col50 img{
+        height: 400px;
+        width: 400px;
+        position: relative;
+        border-radius: 10px;
+        flex-basis: 35%;
+        margin: auto;
+    }
+    .titre {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu{
+    
+      position: relative;
+    }
+    .menu .contenu{
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .menu .contenu .box{
+        width: 350px;
+        margin: 20px;
+       border:20px solid #fff;
+       box-shadow: 20px 15px 35px rgba(0,0,0, 0.8);
+    }
+    .menu .contenu .box .imbox{
+        position: relative;
+        width: 100%;
+        height: 300px;
+
+    }
+    .menu .contenu .box .imbox img{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+     
+    }
+    .menu .titre h2{
+color: #111;
+    }
+    .expert .contenu .box  .text{
+        text-align: center;
+        font-weight: 300px;
+        color: #111;
+    }
+    .expert .contenu .box  .text h3{
+        font-weight: 400;
+    }
+    .expert{
+        margin-top: -100px;
+    }
+    .expert .contenu{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
+     
+    }
+    .expert .contenu .box{
+        width: 250px;
+        margin: 15px;
+
+
+    }
+  
+    .expert .contenu .box .imbox img{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+     
+    }
+    .expert .text{
+        text-align: center;
+        font-weight: 300px;
+        color: #111;
+    }
+    .expert .contenu .box   h3{
+        font-weight: 400;
+        text-align: center;
+        text-transform: capitalize;
+        color: #111;
+    }
+    .text h3{
+        text-align: center;
+        font-weight: 300;
+    }
+    .titre h2{
+text-transform: capitalize;
+color: #fff;
+
+    }
+    .titre h2 span{
+color:#fb911f;
+font-size: 60px;
+    }
+    
+    .temoignage .contenu .box .imbox img{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        justify-content: center;
+        align-items: center;
+     
+    }
+    .temoignage{
+     background-image: url(./images/bg2.jpg);
+     background-size: cover;
+    }
+    .temoignage .contenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        width:100%;
+        flex-direction: row;
+     
+    }
+    .temoignage .contenu .box{
+        width: 340px;
+        margin: 20px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 15px;
+    }
+    .temoignage .contenu .box .imbox{
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+        position: relative;
+        margin-bottom: 20px;
+        overflow: hidden;
+        margin: 20px;
+        align-items: center;
+    }
+    .temoignage .contenu .box .text{
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+        margin: 30px;
+        color:#666;
+        font-style: italic;
+        font-size: 15px;
+    }
+    .temoignage .titre h2{
+        font-size: 40px;
+    }
+    .contact{
+        background-image:  url(./images/img-form.jpg);
+        background-size: cover;
+        box-shadow: 2px 2px 12px rgb(0,0,0, 0.8);
+        width: 100%;
+        background-position: unset;
+    }
+    .contactform{
+        padding: 75px 50px;
+        background: #fff;
+        box-shadow: 5px 15px 50px rgba(0,0,0, 0.8);
+        max-width: 500px;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 38%;
+    }
+
+    .contactform h3{
+        color:#111;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    input{
+        width:100%;
+        border: #111 solid 1px;
+        padding: 12px 20px;
+    }
+    textarea{
+        width:100%;
+        border: #111 solid 1px;
+        padding: 12px 20px;
+    }
+    .contactform .inputboite{
+        position: relative;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 20px;
+        
+    }
+    .contactform .inputboite button[type="submit"]{
+        font-size: 1em;
+        font-weight: 700;
+        color: #fff;
+        background: #fb911f;
+        display: inline-block;
+        cursor: pointer;
+        text-transform: uppercase;
+        width: 30%;
+        height: 50px;
+        letter-spacing: 2px;
+        outline: none;
+        border:none;
+        transition: 0.5s;
+    }
+    .contact .titre .titre-text{
+color: #111;
+    }
+    .final {
+        background-color: #666;
+        font-size: 30px;
+      
+    }
+    .final p{
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+        font-style: italic;
+    }
+    .final .icons{
+       color: #fff;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+       cursor: pointure;
+       transition: 0.5s;
+    }
+    .final .icons .bxl-facebook-circle:hover{
+       color: rgba(76, 76, 216, 0.856);
+    }
+    .final .icons .bxl-instagram:hover{
+        color: rgb(116, 0, 139);
+    }
+    .final .icons .bxl-youtube:hover{
+        color: red;
+    }
+    header.sticky{
+        background: #fff;
+        padding: 10px 10px;
+        box-shadow: 0px 5px 20px rgb(0,0,0 , 0.05);
+    }
+    header.sticky .logo{
+        color: #111;
+
+    }
+    header.sticky .navbar li a{
+        color: #000;
+    }
+    header.sticky .navbar li a:hover{
+        color: #fb911f;
+        border-bottom: 2px solid #fb911f;
+    }
+    .avis p{
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        font-style: italic;
+        font-weight:bold;
+        letter-spacing: 2px;
+    }
+    .avis textarea{
+        width: 30%;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+        margin-left: 400px;
+    }
+    .button input[type="submit"]{
+        font-size: 1em;
+        font-weight: 700;
+        color: #fff;
+        background: #fb911f;
+        display: inline-block;
+        cursor: pointer;
+        text-transform: uppercase;
+        width: 10%;
+        height: 50px;
+        letter-spacing: 2px;
+        outline: none;
+        border:none;
+        transition: 0.5s;
+        margin-left: 500px;
+
+    }
+    @media (max-width:991px){
+        header, header.sticky{
+            padding: 10px 20px;
+        }
+
+        header .navbar li a{
+            text-decoration: none;
+            color:#111;
+            font-size: 0.9rem;
+            font-weight:  300;
+
+        }
+        header{
+font-size: 0.5rem;
+        }
+
+        .navbar{
+            display: none;
+
+        }
+
+        section{
+            padding: 20px;
+        }
+
+        .banniere .contenu h2{
+            font-size: 2rem;
+
+        }
+        .row .col50 img {
+            margin-left: 10%;
+        }
+
+        .contenu p:nth-child(2){
+            font-size: 1.5rem;
+
+        }
+        
+
+        .contactform{
+            margin-left: 5px;
+        }
+.avis textarea{
+    margin-left: 2px;
+position: relative;
+font-weight:  300;
+align-items: center;
+}
+.button  input[type="submit"]{
+    margin-left: 30px;
+    width: 30%;
+    height: 30%;
+    align-items: center;
+}
+        .expert{
+            margin-top: 0px;
+        }
+        .menu{
+            margin-top: 0px;
+        }
+
+        .row{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .temoignage{
+            font-size: 2em;
+            text-align: center;
+        }
+        .temoignage p{
+            text-align: center;
+
+        }
+
+        .row .col50 {
+
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    margin: auto;
+    text-shadow: 4px 4px 5px #fb911f;
+     }
+     
+
+    }
+    @media (max-width: 480px){
+        .banniere .contenu h2{
+            font-size: 2.2em;
+            color: #fff;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        .titre-text{
+            color:#111;
+            font-size: 2rem;
+            font-weight: 300;
+            text-transform: capitalize;
+        }
+        .temoignage h2{
+            font-size: 1.1em;
+        }
+        .temoignage p{
+            text-align: center;
+        }
+    }
+
+    .menuToggle{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background-image: url(./images/menu.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        background-size: 30px;
+    }
+    
+    .menuToggle.active
+    {
+        background-image: url(./images/close.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-origin: center;
+    }
+    .text h3{
+        text-transform: capitalize;
+    }
+    .retour li{
+        margin-left: 1200px;
+        top:0px;
+        margin-top: 1%;
+        text-decoration: none;
+        display: flex;
+        font-size: 20px;
+        
+
+    }
+    .retour li a:hover{
+       color: #fb911f;
+       /* box-shadow:  20px 15px 35px #fb911f; */
+       cursor: pointer;
+    }
+    html {
+        font-size: 100%;
+      }
+      
+     
+      
+      .reservation h4{
+          top: 0%;
+          margin-top:20px;
+          margin: 20px;
+          color: #fb911f;
+          font-size: 15px;
+          align-items: center;
+          margin-left: 300px;
+
+      }
+      .reservation p{
+        top: 0%;
+        margin-top: 20px;
+        margin: 20px;
+        margin-left: 300px;
+        font-size: 15px;
+        font-style: italic;
+      }
+      .reservation label{
+     margin-left: 300px;
+     margin: 25%;
+     font-size: 15px;
+      }
+      select{
+        margin-left: 300px;
+        height: 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow:1px 5px 2px rgba(0,0,0, 0.2);
+       
+      }
+     select option{
+          color: #fb911f;
+          cursor: pointer;
+      }
+      .commande a{
+      margin-left: 1000px;
+      border-radius: 5px;
+      }
+.time {
+
+    margin-left: 500px;
+}
+time{
+    background-color: #fb911f;
+    margin: 20px;
+    padding:  20px;
+    margin-left: 30px;
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: nowrap;
+    top: 20%;
+}
+time:hover{
+  cursor: pointer;
+  color: #fff;
+  background-color: rgba(102, 102, 102, 0.5);
+
+}
+
+label{
+    margin-right: 50%;
+}
+.datereservation input{
+    width: 20%;
+    height: 5%;
+
+    margin-left: 305px;
+    box-shadow:1px 5px 2px rgba(0,0,0, 0.2);
+    border-radius: 5px;
+}
+#map { height: 180px; }
+@media screen and (max-width: 600px){
+    .avis p {
+        font-size: 14px;
+    }
+    .avis textarea{
+        height: 100px;
+    }
+    .avis  .button{
+       padding: 0px;
+       position: relative;
+       bottom: 20px;
+       left: 30px;
+      align-items: center;
+       width: 70%;
+       font-size: 14px;
+
+    }
+}
